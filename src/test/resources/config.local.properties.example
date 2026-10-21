@@ -1,0 +1,7 @@
+# Modèle de configuration locale : copier en config.local.properties (ignoré par Git).
+
+url=http://localhost:8080/share/page/
+admin_user=
+admin_pass=
+
+# chromedriver_path=C:\\chemin\\vers\\chromedriver.exe

@@ -1,0 +1,26 @@
+# Build
+target/
+
+# IDE
+.idea/
+*.iml
+.vscode/
+*.iws
+
+# Secrets et configuration locale : NE JAMAIS VERSIONNER
+src/test/resources/config.local.properties
+*.local.properties
+.env
+.env.*
+*.pem
+*.key
+*.jks
+*.p12
+
+# Rapports et captures
+screenshots/
+*.log
+
+# OS
+.DS_Store
+Thumbs.db

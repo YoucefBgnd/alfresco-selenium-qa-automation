@@ -1,0 +1,5 @@
+id;description;identifiant;nomAffiche;sousGroupe;doublon;resultat;etape
+GRP_N01;Créer un groupe et un sous-groupe, ajouter/retirer le sous-groupe, puis tout supprimer;TestGroupe_${unique};TestGroupe_${unique};SousGroupe_${unique};false;success;
+GRP_N02;Créer puis supprimer un groupe simple;GroupeSimple_${unique};GroupeSimple_${unique};;false;success;
+GRP_E01;Création refusée : identifiant vide;;;;false;error;creation-groupe
+GRP_E02;Création refusée : groupe déjà existant;GroupeDoublon_${unique};GroupeDoublon_${unique};;true;error;creation-groupe
