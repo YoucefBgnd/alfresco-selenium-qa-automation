@@ -15,7 +15,7 @@
     <properties>
         <maven.compiler.release>17</maven.compiler.release>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <selenium.version>4.25.0</selenium.version>
+        <selenium.version>4.51.0</selenium.version>
         <wdm.version>5.9.2</wdm.version>
         <junit.version>5.10.2</junit.version>
     </properties>
